@@ -9,7 +9,7 @@ public class play extends JFrame{
 	private Image logo = new ImageIcon(play.class.getResource("../image/Icon.png")).getImage();
 	// 이미지 아이콘 배치
 	
-	/* private ImageIcon character = new IamgeIcon("../image/character.png"); */
+	// private ImageIcon character = new IamgeIcon("../image/character.png");
 	
 	// 장애물 아이콘 배치
 	
