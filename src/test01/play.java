@@ -1,12 +1,17 @@
 package test01;
 import java.awt.Graphics;
 import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.*;
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
 
 public class play extends JFrame{
 	/*여기있는 이미지를 프레임에 그려줄거임.*/
 	private Image background=new ImageIcon(play.class.getResource("../image/background.png")).getImage();//배경이미지
 	private Image logo = new ImageIcon(play.class.getResource("../image/Icon.png")).getImage();
+	private Image power = new ImageIcon(play.class.getResource("../image/power.gif")).getImage();
 	// 이미지 아이콘 배치
 	
 	// private ImageIcon character = new IamgeIcon("../image/character.png");
@@ -31,6 +36,16 @@ public class play extends JFrame{
 		g.drawImage(background, 0, 0, null);//background를 그려줌
 	}
 	public static void main(String[] args){
+		try {
+			BufferedImage image1 = ImageIO.read(new File("C:/FlyingFries/FlyingFries/src/image/power.gif"));
+			BufferedImage image2 = ImageIO.read(new File("C:/FlyingFries/FlyingFries/src/image/Icon.gif"));
+			
+			int width = Math.max(image1.getWidth(), image2.getWidth());
+			int height = image1.getHeight() + image2.getHeight();
+			
+		} catch (IOException ioe){
+			ioe.printStackTrace();
+		}
 		new play();
 	}
 }
