@@ -10,7 +10,11 @@ public class home extends JFrame{
 	/*여기있는 이미지를 프레임에 그려줄거임.*/
 	private Image background=new ImageIcon(home.class.getResource("../image/home.png")).getImage();//배경이미지
 	private Image logo = new ImageIcon(play.class.getResource("../image/Icon.png")).getImage();
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 94ce1fb2c2c4c879578cdf8e996ac7d2afc1c9ac
 	/*생성자*/
 	public home() {
 		homeframe();
@@ -35,9 +39,18 @@ public class home extends JFrame{
 		JButton btn_start = new JButton("게임시작");
 		panel.setLayout(new BorderLayout());
 		panel.add(btn_start, BorderLayout.CENTER);
+<<<<<<< HEAD
 
 	}
 
 
 
 }
+=======
+		
+	}
+	
+	
+	
+}
+>>>>>>> 94ce1fb2c2c4c879578cdf8e996ac7d2afc1c9ac

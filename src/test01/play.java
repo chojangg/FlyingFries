@@ -40,10 +40,17 @@ public class play extends JFrame{
 		try {
 			BufferedImage image1 = ImageIO.read(new File("C:/FlyingFries/FlyingFries/src/image/power.gif"));
 			BufferedImage image2 = ImageIO.read(new File("C:/FlyingFries/FlyingFries/src/image/Icon.gif"));
+<<<<<<< HEAD
 
 			int width = Math.max(image1.getWidth(), image2.getWidth());
 			int height = image1.getHeight() + image2.getHeight();
 
+=======
+			
+			int width = Math.max(image1.getWidth(), image2.getWidth());
+			int height = image1.getHeight() + image2.getHeight();
+			
+>>>>>>> 94ce1fb2c2c4c879578cdf8e996ac7d2afc1c9ac
 		} catch (IOException ioe){
 			ioe.printStackTrace();
 		}
