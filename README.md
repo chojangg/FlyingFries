@@ -3,6 +3,7 @@
 2022 Java프로젝트 Flying Fries 입니다.
 
 <br>
+
 ### 개발환경/사용언어
 
 --------------------
@@ -10,6 +11,7 @@ Eclipse, Java, GUI
 
 
 <br>
+
 ### 게임 방법
 
 --------------------
@@ -18,6 +20,7 @@ Eclipse, Java, GUI
 
 
 <br>
+
 ### 시작 화면
 
 --------------------
@@ -25,6 +28,7 @@ Eclipse, Java, GUI
 ![image](https://user-images.githubusercontent.com/82978463/206594078-d297ac9c-fba0-42d6-960f-cfd393a47975.png)
 
 <br>
+
 ### 실행 화면
 
 --------------------
@@ -34,6 +38,7 @@ Eclipse, Java, GUI
 
 
 <br>
+
 ### 게임종료 화면
 
 --------------------
