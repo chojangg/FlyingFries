@@ -1,6 +1,6 @@
 # Flying Fries
 2022.09.14~2022.12.06<br>
-2022 J프로젝트 Flying Fries 입니다.
+2022 Java 프로젝트 Flying Fries 입니다.
 
 <br>개발환경/사용언어
 --------------------
